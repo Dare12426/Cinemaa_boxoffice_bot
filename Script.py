@@ -219,7 +219,7 @@ Nᴀᴍᴇ - {}"""
 
 =========== • ✠ • ===========
 ▫️ ᴄʜᴀɴɴᴇʟ : @movie_x_link_bot_support
-▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @+ZzQizkxr04ZiY2U9
+▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @All_movie_search_now
 =========== • ✠ • ===========</b>"""
 
     IMDB_TEMPLATE_TXT = """
