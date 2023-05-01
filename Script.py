@@ -1,10 +1,12 @@
 class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ {},
-Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, 💫 I AM POWERFUL AUTO-FILTER BOt, I CAN PROVIDE MOVIES AND WEB
+Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>,
 
-SERIES.
+💫 I AM POWERFUL AUTO-FILTER BOt,
 
-ITS EASY TO USE ME. JUST ADD ME TO YOUR GROUP AND MAKE ME ADMIN.😍</b>"""
+✨ I CAN PROVIDE MOVIES AND WEB SERIES.
+
+✨ ITS EASY TO USE ME. JUST ADD ME TO YOUR GROUP AND MAKE ME ADMIN.😍</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
