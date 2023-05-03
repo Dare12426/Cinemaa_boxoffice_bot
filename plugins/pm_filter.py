@@ -1495,7 +1495,7 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Fɪʟᴇs Tᴏ PM !", callback_data=f"send_fall#{pre}#{0}")
+        InlineKeyboardButton("! Check How to Download !", url="https://t.me/Shazam_bot_support")
     ])
 
     btn.insert(0, [
