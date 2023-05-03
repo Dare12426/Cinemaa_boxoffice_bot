@@ -280,8 +280,9 @@ async def next_page(bot, query):
                 )
     btn.insert(0, [
         InlineKeyboardButton("! Check How to Download !", url="https://t.me/Shazam_bot_support")
+     ])  
     btn.insert(0, [
-    ])    
+        
         InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
     ])
     try:
