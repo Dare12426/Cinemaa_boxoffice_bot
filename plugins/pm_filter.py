@@ -39,6 +39,7 @@ SPELL_CHECK = {}
 
 LANGUAGES = ["malayalam", "tamil", "english", "hindi", "telugu", "kannada"]
 
+
 @Client.on_message(filters.group & filters.text & filters.incoming)
 async def give_filter(client, message):
     if message.chat.id != SUPPORT_CHAT_ID:
@@ -323,6 +324,7 @@ async def advantage_spoll_choker(bot, query):
                 k = await query.message.edit(script.MVE_NT_FND)
                 await asyncio.sleep(10)
                 await k.delete()
+                
 
 @Client.on_callback_query(filters.regex(r"^languages#"))
 async def languages_cb_handler(client: Client, query: CallbackQuery):
@@ -454,7 +456,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
                 [
                     InlineKeyboardButton(f'💛ɪɴꜰᴏ💛', 'reqinfo'),
                     InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
-                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs​", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
+                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo'),
                 ],
             )
@@ -465,7 +467,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
                 [
                     InlineKeyboardButton(f'💛ɪɴꜰᴏ💛', 'reqinfo'),
                     InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
-                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs​", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
+                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo'),
                 ],
             )
@@ -480,7 +482,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
                 [
                     InlineKeyboardButton(f'💛ɪɴꜰᴏ💛', 'reqinfo'),
                     InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
-                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs​", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
+                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo'),
                 ],
             )
